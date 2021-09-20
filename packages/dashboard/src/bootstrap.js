@@ -4,6 +4,7 @@ import Dashboard from './components/Dashboard'
 //Mount function to start up the app
 const mount = (el) => {
   const app = createApp(Dashboard);
+  
   app.mount(el);
 };
 
